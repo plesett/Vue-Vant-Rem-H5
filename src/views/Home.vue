@@ -11,10 +11,16 @@
 
 <script>
 import { Button } from "vant";
+// import { Test } from "../api/test"
 export default {
   name: "Home",
   components: {
     [Button.name]: Button,
   },
+  mounted() {
+    // Test().then(res => {
+    //   console.log(res,'<---Test')
+    // })
+  }
 };
 </script>
